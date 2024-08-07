@@ -3,13 +3,13 @@ workers_dev = true
 main = "src/index.js"
 compatibility_date = "2021-12-07"
  routes = [
-     { pattern = "docker.proxy.vme60.link", custom_domain = true },
-     { pattern = "quay.proxy.vme60.link", custom_domain = true },
-     { pattern = "gcr.proxy.vme60.link", custom_domain = true },
-     { pattern = "k8s-gcr.proxy.vme60.link", custom_domain = true },
-     { pattern = "k8s.proxy.vme60.link", custom_domain = true },
-     { pattern = "ghcr.proxy.vme60.link", custom_domain = true },
-     { pattern = "cloudsmith.proxy.vme60.link", custom_domain = true },
+     { pattern = "docker.proxy.80231024.xyz", custom_domain = true },
+     { pattern = "quay.proxy.80231024.xyz", custom_domain = true },
+     { pattern = "gcr.proxy.80231024.xyz", custom_domain = true },
+     { pattern = "k8s-gcr.proxy.80231024.xyz", custom_domain = true },
+     { pattern = "k8s.proxy.80231024.xyz", custom_domain = true },
+     { pattern = "ghcr.proxy.80231024.xyz", custom_domain = true },
+     { pattern = "cloudsmith.proxy.80231024.xyz", custom_domain = true },
  ]
 [dev]
 ip = "0.0.0.0"
